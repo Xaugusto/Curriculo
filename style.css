@@ -1,0 +1,147 @@
+body{
+    background-color: #CACED1;
+}
+#formatacao{
+    width: 80%;
+    margin: auto;
+}
+header {
+    display: flex;
+    background-color: #586367;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 280px;
+}
+
+#foto {
+    background-color: #818286;
+    height: 250px;
+    width: 30%;
+}
+
+#descricao {
+    background-color: rgb(203, 203, 105);
+    padding-left: 2%;
+    height: 250px;
+    width: 60%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8eae9;
+    height: 1400px;
+    width: 29%;
+}
+
+#espaco-aside {
+    background-color: #e8eae9;
+    height: 1400px;
+    width: 5%;
+}
+
+article {
+    background-color: #ffffff;
+    height: 1400px;
+    width: 63%;
+}
+
+.jobs{
+    display: flex;
+    width: 80%;
+    height: 300px;
+}
+
+.jobs-flex1 {
+    width: 20%;
+    height: 300px;
+}
+
+.jobs-flex2{
+    width: 80%;
+    height: 300px;
+}
+
+#espaco-article{
+    background-color: #ffffff;
+    height: 1400px;
+    width: 3%;
+}
+
+.contact-lines{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.soft-div {
+    display: flex;
+    width: 90%;
+    border: 1px solid black;
+}
+
+#comunic {
+    background-color: rgb(203, 203, 105);
+    width: 90%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#pensamento {
+    background-color: rgb(203, 203, 105);
+    width: 60%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#gestao {
+    background-color: rgb(203, 203, 105);
+    width: 50%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#inteligence {
+    background-color: rgb(203, 203, 105);
+    width: 90%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.aside_line_h {
+    background-color: black;
+    height: 1px;
+    width: 95%;
+}
+
+.aside_line_v{
+    background-color: black;
+    height: 20px;
+    width: 1px;
+}
+
+.sem_negrito{
+    font-weight: normal;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    
+}
+
+.sem_espaco {
+    margin: 0;
+    padding: 0;
+}
