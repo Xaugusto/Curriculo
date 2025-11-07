@@ -10,14 +10,21 @@ header {
     background-color: #586367;
     justify-content: center;
     align-items: end;
+    margin-top: 100px;
     width: 100%;
     height: 280px;
 }
 
 #foto {
+    display: flex;
+    justify-content: center;
     background-color: #818286;
     height: 250px;
     width: 30%;
+}
+
+img {
+    height: 330px;
 }
 
 #descricao {
@@ -38,20 +45,36 @@ aside {
     display: flex;
     flex-direction: column;
     background-color: #e8eae9;
-    height: 1400px;
+    height: 1300px;
     width: 29%;
 }
 
 #espaco-aside {
     background-color: #e8eae9;
-    height: 1400px;
+    height: 1300px;
     width: 5%;
+}
+
+a:link { 
+    color: rgb(203, 203, 105); 
 }
 
 article {
     background-color: #ffffff;
-    height: 1400px;
+    height: 1300px;
     width: 63%;
+}
+
+#espaco-article{
+    background-color: #ffffff;
+    height: 1300px;
+    width: 3%;
+}
+
+#link-topo {
+    margin-top: 100px;
+    margin-left: 50px
+
 }
 
 .jobs{
@@ -70,11 +93,7 @@ article {
     height: 300px;
 }
 
-#espaco-article{
-    background-color: #ffffff;
-    height: 1400px;
-    width: 3%;
-}
+
 
 .contact-lines{
     display: flex;
