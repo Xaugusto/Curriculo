@@ -1,6 +1,7 @@
 body{
     background-color: #CACED1;
 }
+
 #formatacao{
     width: 80%;
     margin: auto;
@@ -10,7 +11,7 @@ header {
     background-color: #586367;
     justify-content: center;
     align-items: end;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
     height: 280px;
 }
@@ -37,6 +38,7 @@ img {
 main{
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 
@@ -70,6 +72,8 @@ article {
     height: 1300px;
     width: 3%;
 }
+
+
 
 #link-topo {
     margin-top: 100px;
