@@ -1,10 +1,12 @@
 body{
     background-color: #CACED1;
 }
+
 #formatacao{
     width: 80%;
     margin: auto;
 }
+
 header {
     display: flex;
     background-color: #586367;
@@ -167,3 +169,4 @@ article {
     margin: 0;
     padding: 0;
 }
+
