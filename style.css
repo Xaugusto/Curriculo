@@ -1,136 +1,169 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Curriculo</title>
-</head>
-<body>
-    <section id="formatacao">
-        <header id="topo">
-            <div id="foto"><img src="images/foto.jpg" alt="FOTO AUGUSTO"></div>
-            <div id="descricao">
-                <h1 class="sem_negrito">AUGUSTO</h1>
-                <h1 class="sem_espaco">EMANUEL</h1>
-                <h5 class="sem_negrito">FULL STACK DEVELOPER</h5>
-                <p>Desenvolvedor Full Stack proficiente em PHP e Python para a construção de soluções de back-end robustas, escaláveis e de alta performance. Experiência comprovada em Front-end com HTML, CSS e JavaScript para interfaces de usuário dinâmicas e responsivas. Possuo habilidades para atuar em todo o ciclo de vida do desenvolvimento de software, buscando uma oportunidade para aplicar vasto conhecimento técnico e gerar alto valor para o negócio.</p>
-            </div>
-        </header>
-        <main>
-            <div id="espaco-aside"></div>
-            <aside id="partA">
-                <br>
-                <h2 class="sem_negrito">CONTACT</h2>
-                <div class="aside_line_h"></div>
-                <section class="contact-lines">
-                    <div class="icon-size"><i class="fa-solid fa-phone" style="color: rgb(203, 203, 105);"></i></div>
-                    <div class="aside_line_v"></div>
-                    <p> 0000 7777 9999</p>
-                </section>
-                <div class="aside_line_h"></div>
-                <section class="contact-lines">
-                    <div class="icon-size"><i class="fa-solid fa-envelope" style="color: rgb(203, 203, 105);"></i></div>
-                    <div class="aside_line_v"></div>
-                    <p>email@gmail.com</p>
-                </section>
-                <div class="aside_line_h"></div>
-                <section class="contact-lines">
-                    <div class="icon-size"><i class="fa-solid fa-location-dot" style="color: rgb(203, 203, 105);"></i></div>
-                    <div class="aside_line_v"></div>
-                    <p>Guarapuava - PR</p>
-                </section>
-                <br>
-                <h2 class="sem_negrito">FORMAÇÕES</h2>
-                <div class="aside_line_h"></div>
-                <br>
-                <section>
-                    <p style="padding: 0; margin: 0;">2022 - 2024: </p>
-                    <p style="font-size: 20px; padding: 0; margin: 0; font-weight: bold;">Ensino Medio Completo</p>
-                    <p style="padding: 0; margin: 0;">Colegio Estadual Ana Vanda</p>
-                </section>
-                <br>
-                <section>
-                    <p style="padding: 0; margin: 0;">2025 - PRESENT:</p>
-                    <p style="font-size: 20px; padding: 0; margin: 0; font-weight: bold;">Superior Sistemas Para a Internet</p>
-                    <p style="padding: 0; margin: 0;">UTFPR</p>
-                </section>
-                <br>
-                <h2 class="sem_negrito">SOFT SKILLS</h2>
-                <div class="aside_line_h"></div>
-                <section>
-                    <p>Comunicação</p>
-                    <div class="soft-div"><p id="comunic"></p></div>
-                    <p>Pensamento critico</p>
-                    <div class="soft-div"><a id="pensamento"></a></div>
-                    <p>Gestão de tempo</p>
-                    <div class="soft-div"><a id="gestao"></a></div>
-                    <p>Inteligência emocional</p>
-                    <div class="soft-div"><a id="inteligence"></a></div>
-                    <div></div>
-                </section>
-                <br>
-                <a><i class="fa-brands fa-github"></i></a>
-                <a href="https://github.com/Xaugusto?tab=repositories">github.com/Xaugusto</a>
-                <a><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://br.linkedin.com/in/augusto-emanuel-pereira-61035830b">linkedin.com/in/augusto-emanuel</a>
-            </aside>
-            <div id="espaco-article"></div>
-            <article>
-                <br>
-                <h2 class="sem_negrito">SOBRE MIM</h2>
-                <div class="aside_line_h"></div>
-                <h3 style="font-weight: bold;">Augusto Emanuel Pereira</h3>
-                <p>"Desenvolvedor Full Stack com 1 ano de experiência na área de programação. Especialista em Banco de Dados MySQL e com forte desenvolvimento em PHP. No último projeto, atuei no desenvolvimento de aplicações em PHP para gerenciamento de negócios e e-commerce. Busco aplicar meus conhecimentos para proporcionar mais facilidade e agilidade em aplicações com essas tecnologias."</p>
-                <br>
-                <h2 class="sem_negrito">EXPERIENCIAS</h2>
-                <div class="aside_line_h"></div>
-                <section class="jobs">
-                    <div class="jobs-flex1"><p>2025 - PRESENT</p></div>
-                    <div class="jobs-flex2">
-                        <br>
-                        <p style="font-size: 20px; padding: 0; margin: 0; font-weight: bold;">Programador Junior PHP</p>
-                        <p>TEOREMA SISTEMAS</p>
-                        <ul>
-                            <li>Desenvolvimento e manutenção de aplicações web utilizando PHP e banco de dados (ex: MySQL/PostgreSQL).</li><br>
-                            <li>Codificação, depuração e testes de programas, garantindo a qualidade e o desempenho do software.</li><br>
-                            <li>Colaboração com equipes multifuncionais para analisar requisitos, implementar novas funcionalidades e realizar correções de sistemas.</li><br>
-                        </ul>
-                    </div>
-                </section>
-                <div class="aside_line_h"></div>
-                <section class="jobs">
-                    <div class="jobs-flex1"><p>2024 -</p></div>
-                    <div class="jobs-flex2">
-                        <br>
-                        <p style="font-size: 20px; padding: 0; margin: 0; font-weight: bold;">Desenvolvedor Python Estagio (Back-end)</p>
-                        <p>TECHSOLUTIONS</p>
-                        <ul>
-                            <li>Desenvolvimento e manutenção de APIs RESTful em Python (Django/Flask) e integração com bancos de dados.</li><br>
-                            <li>Codificação, depuração e testes unitários (Pytest), garantindo performance e estabilidade do código.</li><br>
-                            <li>Colaboração multifuncional, análise de requisitos e automação de processos de back-end.</li><br>
-                        </ul>
-                    </div>
-                </section>
-                <div class="aside_line_h"></div>
-                <section class="jobs">
-                    <div class="jobs-flex1"><p>2022 - 2023</p></div>
-                    <div class="jobs-flex2">
-                        <br>
-                        <p style="font-size: 20px; padding: 0; margin: 0; font-weight: bold;">Programador Pleno PHP</p>
-                        <p>Suporte de TI Nível 1</p>
-                        <ul>
-                            <li>Suporte Técnico e Resolução: Prestação de suporte Help Desk e Service Desk (N1 e N2) para usuários internos, resolvendo incidentes de hardware, software e conectividade de rede.</li><br>
-                            <li>Documentação e Melhoria: Registro, acompanhamento e fechamento de chamados (via sistema de ticketing), e criação de documentação técnica para otimizar a resolução de problemas recorrentes.</li><br>
-                        </ul>
-                    </div>
-                </section>
-                <section id="link-topo">
-                    <a href="#topo">Inicio da pagina</a>
-                </section>
-            </article>
-        </main>
-    </section>
-</body>
-</html>
+body{
+    background-color: #CACED1;
+}
+#formatacao{
+    width: 80%;
+    margin: auto;
+}
+header {
+    display: flex;
+    background-color: #586367;
+    justify-content: center;
+    align-items: end;
+    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    background-color: #818286;
+    height: 250px;
+    width: 30%;
+}
+
+img {
+    height: 330px;
+}
+
+#descricao {
+    background-color: rgb(203, 203, 105);
+    padding-left: 2%;
+    height: 250px;
+    width: 60%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8eae9;
+    height: 1300px;
+    width: 29%;
+}
+
+#espaco-aside {
+    background-color: #e8eae9;
+    height: 1300px;
+    width: 5%;
+}
+
+a:link { 
+    color: rgb(203, 203, 105); 
+}
+
+article {
+    background-color: #ffffff;
+    height: 1300px;
+    width: 63%;
+}
+
+#espaco-article{
+    background-color: #ffffff;
+    height: 1300px;
+    width: 3%;
+}
+
+
+
+#link-topo {
+    margin-top: 100px;
+    margin-left: 50px
+
+}
+
+.jobs{
+    display: flex;
+    width: 80%;
+    height: 300px;
+}
+
+.jobs-flex1 {
+    width: 20%;
+    height: 300px;
+}
+
+.jobs-flex2{
+    width: 80%;
+    height: 300px;
+}
+
+
+
+.contact-lines{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.soft-div {
+    display: flex;
+    width: 90%;
+    border: 1px solid black;
+}
+
+#comunic {
+    background-color: rgb(203, 203, 105);
+    width: 90%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#pensamento {
+    background-color: rgb(203, 203, 105);
+    width: 60%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#gestao {
+    background-color: rgb(203, 203, 105);
+    width: 50%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#inteligence {
+    background-color: rgb(203, 203, 105);
+    width: 90%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.aside_line_h {
+    background-color: black;
+    height: 1px;
+    width: 95%;
+}
+
+.aside_line_v{
+    background-color: black;
+    height: 20px;
+    width: 1px;
+}
+
+.sem_negrito{
+    font-weight: normal;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    
+}
+
+.sem_espaco {
+    margin: 0;
+    padding: 0;
+}
