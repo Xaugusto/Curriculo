@@ -1,12 +1,10 @@
 body{
     background-color: #CACED1;
 }
-
 #formatacao{
     width: 80%;
     margin: auto;
 }
-
 header {
     display: flex;
     background-color: #586367;
@@ -145,6 +143,18 @@ article {
     padding: 0;
 }
 
+.format1 {
+    font-size: 20px; 
+    padding: 0; 
+    margin: 0; 
+    font-weight: bold;
+}
+
+.format2 {
+    padding: 0; 
+    margin: 0;
+}
+
 .aside_line_h {
     background-color: black;
     height: 1px;
@@ -169,4 +179,3 @@ article {
     margin: 0;
     padding: 0;
 }
-
